@@ -1,0 +1,84 @@
+.sidebar{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  top: 70px;
+  z-index: 90;
+  padding-top: 0px;
+}
+
+.sidebar-div{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-top: 9px;
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  position:relative;
+  left: 0px;
+  border-radius: 9px;
+  transition: background-color 0.5s;
+}
+.sidebar-div:hover{
+  background-color: rgb(202, 201, 201);
+} 
+
+.sidebar-pfp{
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 50%;
+}
+
+.sidebar-user-name{
+  margin-left: 10px;
+  display: flex;
+  flex: 1;
+}
+
+.sidebar-icon{
+  height: 22px;
+}
+
+.icon-text{
+  margin-left: 10px;
+}
+
+.privacy-text{
+  color: rgb(148, 147, 147);
+  margin-top: 20px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.5s;
+  position: relative;
+  bottom: 0px;
+}
+.privacy-text:hover{
+  background-color: rgb(202, 201, 201);
+}
+
+.right-sidebar{
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  top: 70px;
+  padding-top: 30px;
+  padding-right: 35px;
+}
+
+.title{
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.sidebar-name{
+  font-size: 19px;
+  font-weight: 400;
+  margin-left: 10px;
+  color: rgb(56, 56, 56);
+}

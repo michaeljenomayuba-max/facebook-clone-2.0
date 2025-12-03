@@ -1,0 +1,209 @@
+    .post-div{
+      width: 500px;
+      background-color: white;
+      padding: 20px;
+      border-radius: 20px;
+      margin-top: 20px;
+    }
+
+    .top-section1{
+      width: 500px;
+      display: flex;
+      align-items: center;
+      margin-bottom: 0px;
+    }
+
+    .post-textbox{
+      flex: 1;
+      margin-left: 10px;
+      width: 430px;
+      height: 40px;
+      border: none;
+      border-radius: 20px;
+      padding-left: 10px;
+      background-color: rgb(223, 223, 223);
+    }
+
+    .top-section{
+      width: 500px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .pfp{
+      height: 50px;
+      width: 50px;
+      object-fit: cover;
+      object-position: top;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+
+    .post-info{
+      display: flex;
+      align-items: center;
+    }
+
+    .name-days{
+      margin-left: 10px;
+    }
+
+    .name, .days{
+      font-weight: bold;
+    }
+
+    .days{
+      font-size: 15px;
+    }
+
+    .dots{
+      font-size: 20px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .post-image{
+      width: 500px;
+      margin-top: 7px;
+    }
+
+    .like, .share{
+      width: 40px;
+    }
+
+    .comment{
+      width: 30px;
+    }
+
+    .icon-row{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 10px;
+    }
+
+    .icon-div-top{
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+    }
+
+    .icon-div{
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+    }
+
+    .post-textbox{
+      flex: 1;
+    }
+
+    .status1{
+      width: 150px;
+      border-radius: 16px;
+    }
+
+    .status2{
+      width: 150px;
+      height: 225px;
+      object-fit: cover;
+      border-radius: 16px;
+    }
+
+    .status-div{
+      position: relative;
+      margin-right: 15px;
+      box-shadow: 5px 5px 11px rgba(0, 0, 0, 0.4);
+      border-radius: 16px;
+      height: 225px;
+      cursor: pointer;
+    }
+
+    .status-pfp-div{
+      height: 40px;
+      width: 40px;
+      border-radius: 50%;
+      border-style: solid;
+      border-color: blue;
+      background-color: aquamarine;
+      position: absolute;
+      top: 13px;
+      left: 10px;
+    }
+
+   .status-pfp{
+      height: 40px;
+      width: 40px;
+      object-fit: cover;
+      object-position: top;
+      border-radius: 50%;
+    }
+
+    .status-name{
+      position: absolute;
+      color: white;
+      font-size: 18px;
+      font-weight: 600;
+      bottom: 5px;
+      left: 10px;
+      width: 120px;
+    }
+
+    .general-status-div{
+      display: flex;
+      flex-direction: row;
+    }
+
+    .create-story{
+      background-color: white;
+      position: absolute;
+      bottom: 0px;
+      left: 0px;
+      right: 0px;
+      height: 50px;
+      border-bottom-left-radius: 16px;
+      border-bottom-right-radius: 16px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: 700;
+    }
+
+    .create-icon{
+      width: 30px;
+      height: 30px;
+    }
+
+    .create-icon-div{
+      position: absolute;
+      bottom: 30px;
+      left: 55px;
+      background-color: white;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .status-posts{
+      display: flex;
+      flex-direction: column;     
+      align-items: center;
+      padding-top: 80px;
+      position: absolute;
+      left: 210px;
+    }
+
+    .post-icon-text{
+      color: rgb(204, 133, 0);
+      margin-left: 4px;
+      margin-top: 4px;
+    }
+
+    .video, .photo, .smile{
+      width: 25px;
+    }
